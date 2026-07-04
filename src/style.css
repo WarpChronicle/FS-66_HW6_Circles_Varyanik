@@ -25,11 +25,11 @@
     border-radius: 100%;
 }
 
-.blue   { border-color: #0085C7; }
-.black  { border-color: #000000; }
-.red    { border-color: #DF0024; }
-.yellow { border-color: #F4C300; }
-.green  { border-color: #009F3D; }
+.blue   { border-color: #0085C7; z-index: 1;}
+.black  { border-color: #000000; z-index: 0}
+.red    { border-color: #DF0024; z-index: -1;}
+.yellow { border-color: #F4C300; z-index: 0;}
+.green  { border-color: #009F3D; z-index: -1;}
 
 .yellow {
     position: relative;
